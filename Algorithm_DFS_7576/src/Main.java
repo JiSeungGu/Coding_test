@@ -11,7 +11,6 @@ import java.util.Scanner;
  * 	1)DFS 방식이 아닌 BFS 방식으로 풀어야한다. 넓이 우선 탐색이기 때문에 
  *  2)굳이 1로 채우면서 count 값을 구하는 방법보다 그전에 있는 수에서 1씩더해주면 하루 증가가 된다..
  *  3) for으로 i j 를 계속 호출하는 방식이아닌 스택에 담고 나서 BFS를 호출해야한다.
- *  
  */
 
 public class Main {
