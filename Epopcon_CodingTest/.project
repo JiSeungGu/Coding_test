@@ -16,19 +16,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>number_1.png</name>
+			<name>src/number_1.png</name>
 			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Users/%EC%A7%80%EC%8A%B9%EA%B5%AC/Desktop/number_1.png</locationURI>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/number_1.png</locationURI>
 		</link>
 		<link>
-			<name>number_2.png</name>
+			<name>src/number_2.png</name>
 			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Users/%EC%A7%80%EC%8A%B9%EA%B5%AC/Desktop/number_2.png</locationURI>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/number_2.png</locationURI>
 		</link>
 		<link>
-			<name>number_3.png</name>
+			<name>src/number_3.png</name>
 			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Users/%EC%A7%80%EC%8A%B9%EA%B5%AC/Desktop/number_3.png</locationURI>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/number_3.png</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
