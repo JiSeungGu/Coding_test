@@ -14,21 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/number_1.png</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Desktop/number_1.png</locationURI>
-		</link>
-		<link>
-			<name>src/number_2.png</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Desktop/number_2.png</locationURI>
-		</link>
-		<link>
-			<name>src/number_3.png</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Desktop/number_3.png</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
