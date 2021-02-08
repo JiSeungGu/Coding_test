@@ -16,33 +16,37 @@ import java.util.Scanner;
 public class Main {
 	static int[] company;
 	static int budget;
-	static int gap;
+	static int gap=0;
 	public static void Binary_Search() {
+		System.out.println("호출");
 		int first=1;
-		int end= budget;
-		
+		int last= budget;
 		int middle =(int)(last+first)/2;
+		
 		
 		while(first<=last)
 		{
+			System.out.println("first :"+first);
+			System.out.println("last  :"+last);
+			
+			middle =(int)(last+first)/2;
 			if(curculate(middle)>budget)
 			{
-				gap=middle;
+				
 				last = middle-1;
-				Binary_Search(last, first);
 			}
 			else 
 			{
 				gap=middle;
+				System.out.println("gap ="+gap);
 				first = middle+1;
-				Binary_Search(last, first);
 			}
-		}
+		}	
 		System.out.println("금액 "+gap);
-	}
+	}		
 	public static int curculate(int money) {
 		int total=0;
-		for(int i=0;i<company.length-1;i++)
+		for(int i=0;i<company.length;i++)
 		{
 			if(money > company[i])
 			{
@@ -68,7 +72,7 @@ public class Main {
 		budget = scan.nextInt();
 		
 		Arrays.sort(company);
-		Binary_Search(company[company.length-1],0);
+		Binary_Search();
 		
 		
 	}	
