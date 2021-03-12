@@ -17,6 +17,7 @@ public class main {
 		sort(arr,low,mid-1);
 		sort(arr,mid,high);
 	}
+	
 	public static int partition(int[] arr,int low,int high) {
 		int pivot = arr[(low + high) / 2 ];
 		System.out.println("pivot"+pivot);
