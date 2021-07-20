@@ -34,8 +34,7 @@ public class main {
 		int size= water.size();
 		for(int l=0;l<size;l++)
 		{
-			position water_place =  water.poll();
-		
+			position water_place =  water.poll(); 
 			for(int i=0;i<4;i++)
 			{		
 				int water_move_x = water_place.x + direct[i][0];
@@ -48,7 +47,9 @@ public class main {
 					if(map[water_move_x][water_move_y].equals(".") || map[water_move_x][water_move_y].equals("S") )
 					{	
 						map[water_move_x][water_move_y] ="*";
-						 for(int N=0;N<h;N++)
+						
+						
+						for(int N=0;N<h;N++)
 							{	
 								for(int j=0;j<w;j++)
 								{
@@ -101,6 +102,8 @@ public class main {
 			
 		map = new String[h][w];
 			
+		
+		
 		for(int i=0;i<h;i++)
 		{	
 			for(int j=0;j<w;j++)
@@ -109,6 +112,9 @@ public class main {
 			}
 			
 		}	
+		
+		
+		
 		for(int i=0;i<h;i++)
 		{	
 			for(int j=0;j<w;j++)
@@ -124,7 +130,11 @@ public class main {
 			}
 		}	
 
+		
+		
+		
 		int ans = 0;
+		int b = 0;
 	    while (true) {
 	        ++ans;
 	        if (ani.size() == 0) {
@@ -132,13 +142,13 @@ public class main {
 	            return;
 	        }
 	        
-	        
-	        
 	        water_BFS();
 	        if (BFS()) {
 	            System.out.println(ans);
 	            return;
 	        }
+	        
+	        
 	        System.out.println("-------");
 			 for(int N=0;N<h;N++)
 				{	
